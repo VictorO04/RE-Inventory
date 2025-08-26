@@ -1,6 +1,10 @@
 const armasRE4 = [
-    {
+        {
         "id": 1,
+        "nome": "Faca",
+    },
+    {
+        "id": 2,
         "nome": "Handgun",
         "tipo": "Pistola",
         "danoInicial": 1,
@@ -14,7 +18,7 @@ const armasRE4 = [
         "Exclusivo": "Aumenta a chance de acerto crítico em 5 vezes"
     },
     {
-        "id": 2,
+        "id": 3,
         "nome": "Punisher",
         "tipo": "Pistola",
         "danoInicial": 0.9,
@@ -28,7 +32,7 @@ const armasRE4 = [
         "Exclusivo": "Poder de perfuração aumentado, podendo atingir até 5 inimigos enfileirados"
     },
     {
-        "id": 3,
+        "id": 4,
         "nome": "Red9",
         "tipo": "Pistola",
         "danoInicial": 1.6,
@@ -42,7 +46,7 @@ const armasRE4 = [
         "Exclusivo": "Dano aumentado até 6,5"
     },
     {
-        "id": 4,
+        "id": 5,
         "nome": "Blacktail",
         "tipo": "Pistola",
         "danoInicial": 1.6,
@@ -56,7 +60,7 @@ const armasRE4 = [
         "Exclusivo": "Dano aumentado até 4,5"
     },
     {
-        "id": 5,
+        "id": 6,
         "nome": "Matilda",
         "tipo": "Pistola",
         "danoInicial": 1.5,
@@ -67,7 +71,46 @@ const armasRE4 = [
         "CapacidadeInicial": 15,
         "CapacidadeFinal": 30,
         "Exclusivo": "Capacidade aumentada até 100 balas"
-    }
+    },
+    {
+        "id": 7,
+        "nome": "Broken Butterfly",
+        "tipo": "Magnum",
+        "danoInicial": 13,
+        "danoFinal": 28,
+        "velocidadeDisparo": 0.70,
+        "velocidadeRecargaInicial": 3.67,
+        "velocidadeRecargaFinal": 2.33,
+        "CapacidadeInicial": 6,
+        "CapacidadeFinal": 12,
+        "Exclusivo": "Dano aumentado até 50"
+    },
+    {
+        "id": 8,
+        "nome": "Killer7",
+        "tipo": "Magnum",
+        "danoInicial": 25,
+        "danoFinal": 35,
+        "velocidadeDisparo": 0.70,
+        "velocidadeRecargaInicial": 1.83,
+        "velocidadeRecargaFinal": 0.93,
+        "CapacidadeInicial": 7,
+        "CapacidadeFinal": 14,
+        "Exclusivo": "---"
+    },
+    {
+        "id": 9,
+        "nome": "Handcannon",
+        "tipo": "Magnum",
+        "danoInicial": 30,
+        "danoFinal": 60,
+        "velocidadeDisparo": 1.17,
+        "velocidadeRecargaInicial": 3.67,
+        "velocidadeRecargaFinal": 1.83,
+        "CapacidadeInicial": 3,
+        "CapacidadeFinal": 10,
+        "Exclusivo": "Dano aumentado até 99,9 e munição infinita"
+    },
 ];
 
 export default {armasRE4}
