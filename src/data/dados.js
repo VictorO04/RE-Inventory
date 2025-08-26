@@ -74,7 +74,7 @@ const armasRE4 = [
     },
     {
         "id": 7,
-        "nome": "Broken Butterfly",
+        "nome": "Broken-Butterfly",
         "tipo": "Magnum",
         "danoInicial": 13,
         "danoFinal": 28,
@@ -111,6 +111,179 @@ const armasRE4 = [
         "CapacidadeFinal": 10,
         "Exclusivo": "Dano aumentado até 99,9 e munição infinita"
     },
+    {
+        "id": 10,
+        "nome": "Shotgun",
+        "tipo": "Espingarda",
+        "danoInicial": 4,
+        "danoFinal": 8,
+        "velocidadeDisparo": 1.53,
+        "velocidadeRecargaInicial": 3.03,
+        "velocidadeRecargaFinal": 1.50,
+        "CapacidadeInicial": 6,
+        "CapacidadeFinal": 18,
+        "Exclusivo": "Mesmo dano à longas distâncias (aumentando apenas de perto)"
+    },
+    {
+        "id": 11,
+        "nome": "Riot-Gun",
+        "tipo": "Espingarda",
+        "danoInicial": 5,
+        "danoFinal": 8,
+        "velocidadeDisparo": 1.53,
+        "velocidadeRecargaInicial": 3.03,
+        "velocidadeRecargaFinal": 1.50,
+        "CapacidadeInicial": 7,
+        "CapacidadeFinal": 17,
+        "Exclusivo": "Dano aumentado até 10"
+    },
+    {
+        "id": 12,
+        "nome": "Striker",
+        "tipo": "Espingarda",
+        "danoInicial": 6,
+        "danoFinal": 12,
+        "velocidadeDisparo": 1.10,
+        "velocidadeRecargaInicial": 3,
+        "velocidadeRecargaFinal": 1.50,
+        "CapacidadeInicial": 12,
+        "CapacidadeFinal": 28,
+        "Exclusivo": "Capacidade aumentada até 100 balas"
+    },
+    {
+        "id": 13,
+        "nome": "Ada's-Shotgun",
+        "tipo": "Espingarda",
+        "dano": 5,
+        "velocidadeDisparo": 1.53,
+        "velocidadeRecarga": 3.03,
+        "Capacidade": 12,
+        "Exclusivo": "---"
+    },
+    {
+        "id": 14,
+        "nome": "Rifle",
+        "tipo": "Rifle",
+        "danoInicial": 4,
+        "danoFinal": 12,
+        "velocidadeDisparo": 2.73,
+        "velocidadeRecargaInicial": 4,
+        "velocidadeRecargaFinal": 2.33,
+        "CapacidadeInicial": 5,
+        "CapacidadeFinal": 18,
+        "Exclusivo": "Dano aumentado até 30"
+    },
+    {
+        "id": 15,
+        "nome": "Rifle-Semi-Auto",
+        "tipo": "Rifle",
+        "danoInicial": 7,
+        "danoFinal": 15,
+        "velocidadeDisparo": 1.43,
+        "velocidadeRecargaInicial": 2.33,
+        "velocidadeRecargaFinal": 1.33,
+        "CapacidadeInicial": 10,
+        "CapacidadeFinal": 24,
+        "Exclusivo": "Velocidade de disparo diminuído até 0,80 sec"
+    },
+    {
+        "id": 16,
+        "nome": "TMP",
+        "tipo": "Metralhadora",
+        "danoInicial": 0.4,
+        "danoFinal": 1.2,
+        "velocidadeDisparo": 0.1,
+        "velocidadeRecargaInicial": 2.37,
+        "velocidadeRecargaFinal": 1.17,
+        "CapacidadeInicial": 30,
+        "CapacidadeFinal": 250,
+        "Exclusivo": "Dano aumentado até 1,8"
+    },
+    {
+        "id": 17,
+        "nome": "Chicago-Typewriter",
+        "tipo": "Metralhadora",
+        "dano": 10,
+        "velocidadeDisparo": 0.1,
+        "velocidadeRecarga": 2.83,
+        "Capacidade": "---",
+        "Exclusivo": "---"
+    },
+    {
+        "id": 18,
+        "nome": "Chicago-Typewriter-Ada",
+        "tipo": "Metralhadora",
+        "dano": 10,
+        "velocidadeDisparo": 0.1,
+        "velocidadeRecarga": 2.83,
+        "Capacidade": "---",
+        "Exclusivo": "---"
+    },
+    {
+        "id": 19,
+        "nome": "Mine-Thrower",
+        "tipo": "Armas-Especiais",
+        "danoInicial": 2,
+        "danoFinal": 6,
+        "velocidadeDisparo": 1.33,
+        "velocidadeRecargaInicial": 3.43,
+        "velocidadeRecargaFinal": 2.57,
+        "CapacidadeInicial": 5,
+        "CapacidadeFinal": 10,
+        "Exclusivo": "Dardos com sensor de calor que automaticamente irão atrás do alvo e maior área de explosão"
+    },
+    {
+        "id": 20,
+        "nome": "Rocket-Launcher",
+        "tipo": "Armas-Especiais",
+        "dano": "Hit-Kill",
+        "Capacidade": 1,
+        "Exclusivo": "---"
+    },
+    {
+        "id": 21,
+        "nome": "Infinite-Rocket-Launcher",
+        "tipo": "Armas-Especiais",
+        "dano": "Hit-Kill",
+        "Capacidade": "---",
+        "Exclusivo": "---"
+    },
+    {
+        "id": 22,
+        "nome": "Rocket-Launcher-Special",
+        "tipo": "Armas-Especiais",
+        "dano": "Hit-Kill",
+        "Capacidade": "---",
+        "Exclusivo": "---"
+    },
+    {
+        "id": 23,
+        "nome": "P.R.L.-412",
+        "tipo": "Armas-Especiais",
+        "dano": "Hit-Kill",
+        "Capacidade": "---",
+        "Exclusivo": "---"
+    },
+    {
+        "id": 24,
+        "nome": "Bowgun",
+        "tipo": "Armas-Especiais",
+        "dano": 16.6,
+        "velocidadeDisparo": 2.43,
+        "velocidadeRecarga": "---",
+        "Capacidade": "---",
+        "Exclusivo": "---"
+    },
+    {
+        "id": 25,
+        "nome": "Krauser's Bow",
+        "tipo": "Armas-Especiais",
+        "dano": "---",
+        "velocidadeDisparo": "---",
+        "velocidadeRecarga": "---",
+        "Capacidade": "---",
+        "Exclusivo": "---"
+    }
 ];
 
 export default {armasRE4}

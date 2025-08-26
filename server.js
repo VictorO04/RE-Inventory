@@ -41,6 +41,19 @@ app.get("/Resident-Evil-4/armas/nome/:nome", (req, res) => {
     }
 });
 
+app.get("/Resident-Evil-4/armas/tipo/:tipo", (req, res) => {
+    let tipo = req.params.tipo.toLowerCase();
+    const tipoEncontrado = armasRE4.filter(t => t.tipo.toLowerCase().includes(tipo));
+
+    if (tipoEncontrado.length > 0) {
+        res.status(200).json(tipoEncontrado);
+    } else {
+        res.status(404).json({
+            "erro": `Arma com o tipo ${tipo} não encontrada!`
+        });
+    }
+});
+
 app.listen(serverPort, () => {
     console.log(`O servidor está aberto em: http://localhost:${serverPort}`);
 })
